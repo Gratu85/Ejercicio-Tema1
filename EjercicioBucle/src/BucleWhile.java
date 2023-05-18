@@ -7,9 +7,9 @@ public class BucleWhile {
 
         while (contador<Nombres.length) {
             for (String nombre : Nombres) {
-                String cadena = "";
-                System.out.printf(cadena);
+                String cadena = " , ";
                 System.out.printf(nombre);
+                System.out.printf(cadena);
                 contador++;
 
             }
